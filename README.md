@@ -30,9 +30,11 @@ Appropriate WebDriver for your chosen browser (e.g., ChromeDriver for Google Chr
 1.Clone this repository to your local machine
 
 git clone https://github.com/your-username/selenium-registration-automation.git
+
 2.Navigate to the project folder
 
 cd repository
+
 3.Setup the project
 
 pip install -r requirements.txt
@@ -46,8 +48,10 @@ registration_data = {
 "email": "tas.nim@example.com",
 "password": "Nim.Password123",
 }
+
 2.Run the script
 python opencart.py
+
 3.Monitor the console and the log file for registration success or failure messages.
 
 # Configuration
@@ -57,10 +61,4 @@ url: The URL of the registration page.
 wait_timeout: Timeout for waiting for elements to become clickable (in seconds).
 short_wait: A shorter timeout for specific actions (in seconds).
 WebDriver path and setup (e.g., ChromeDriver setup. You can use other browsers as well).
-
-
-
-
-
-
 
